@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/nissr.dir/column.cpp.o CMakeFiles/nissr.dir/main.cpp.o CMakeFiles/nissr.dir/query.cpp.o CMakeFiles/nissr.dir/queryUtil.cpp.o CMakeFiles/nissr.dir/row.cpp.o CMakeFiles/nissr.dir/table.cpp.o  -o nissr 

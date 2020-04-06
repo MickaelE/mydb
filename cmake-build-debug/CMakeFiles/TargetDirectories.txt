@@ -1,0 +1,3 @@
+/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/nisseDB.dir
+/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/edit_cache.dir

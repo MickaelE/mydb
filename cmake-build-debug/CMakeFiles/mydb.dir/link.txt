@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mydb.dir/column.cpp.o CMakeFiles/mydb.dir/main.cpp.o CMakeFiles/mydb.dir/query.cpp.o CMakeFiles/mydb.dir/queryUtil.cpp.o CMakeFiles/mydb.dir/row.cpp.o CMakeFiles/mydb.dir/table.cpp.o  -o mydb 

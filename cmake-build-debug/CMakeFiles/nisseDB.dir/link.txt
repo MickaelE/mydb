@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/nisseDB.dir/column.cpp.o CMakeFiles/nisseDB.dir/main.cpp.o CMakeFiles/nisseDB.dir/query.cpp.o CMakeFiles/nisseDB.dir/queryUtil.cpp.o CMakeFiles/nisseDB.dir/row.cpp.o CMakeFiles/nisseDB.dir/table.cpp.o  -o nisseDB 

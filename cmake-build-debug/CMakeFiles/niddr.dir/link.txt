@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/niddr.dir/column.cpp.o CMakeFiles/niddr.dir/main.cpp.o CMakeFiles/niddr.dir/query.cpp.o CMakeFiles/niddr.dir/queryUtil.cpp.o CMakeFiles/niddr.dir/row.cpp.o CMakeFiles/niddr.dir/table.cpp.o  -o niddr 
