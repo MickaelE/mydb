@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/ni.dir/column.cpp.o CMakeFiles/ni.dir/main.cpp.o CMakeFiles/ni.dir/query.cpp.o CMakeFiles/ni.dir/queryUtil.cpp.o CMakeFiles/ni.dir/row.cpp.o CMakeFiles/ni.dir/table.cpp.o  -o ni 

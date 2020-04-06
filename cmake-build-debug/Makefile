@@ -48,10 +48,10 @@ RM = /home/xmie/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xmie/CLionProjects/mydb
+CMAKE_SOURCE_DIR = /home/xmie/CLionProjects/nisseDB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xmie/CLionProjects/mydb/cmake-build-debug
+CMAKE_BINARY_DIR = /home/xmie/CLionProjects/nisseDB/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles /home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles /home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

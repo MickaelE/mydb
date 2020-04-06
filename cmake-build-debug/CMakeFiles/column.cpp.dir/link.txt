@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/column.cpp.dir/main.cpp.o CMakeFiles/column.cpp.dir/query.cpp.o CMakeFiles/column.cpp.dir/queryUtil.cpp.o CMakeFiles/column.cpp.dir/row.cpp.o CMakeFiles/column.cpp.dir/table.cpp.o  -o column.cpp 

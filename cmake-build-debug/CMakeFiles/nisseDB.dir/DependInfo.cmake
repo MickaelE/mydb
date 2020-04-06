@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xmie/CLionProjects/mydb/column.cpp" "/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/nisseDB.dir/column.cpp.o"
-  "/home/xmie/CLionProjects/mydb/main.cpp" "/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/nisseDB.dir/main.cpp.o"
-  "/home/xmie/CLionProjects/mydb/query.cpp" "/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/nisseDB.dir/query.cpp.o"
-  "/home/xmie/CLionProjects/mydb/queryUtil.cpp" "/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/nisseDB.dir/queryUtil.cpp.o"
-  "/home/xmie/CLionProjects/mydb/row.cpp" "/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/nisseDB.dir/row.cpp.o"
-  "/home/xmie/CLionProjects/mydb/table.cpp" "/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/nisseDB.dir/table.cpp.o"
+  "/home/xmie/CLionProjects/nisseDB/column.cpp" "/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/nisseDB.dir/column.cpp.o"
+  "/home/xmie/CLionProjects/nisseDB/main.cpp" "/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/nisseDB.dir/main.cpp.o"
+  "/home/xmie/CLionProjects/nisseDB/query.cpp" "/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/nisseDB.dir/query.cpp.o"
+  "/home/xmie/CLionProjects/nisseDB/queryUtil.cpp" "/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/nisseDB.dir/queryUtil.cpp.o"
+  "/home/xmie/CLionProjects/nisseDB/row.cpp" "/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/nisseDB.dir/row.cpp.o"
+  "/home/xmie/CLionProjects/nisseDB/table.cpp" "/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/nisseDB.dir/table.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

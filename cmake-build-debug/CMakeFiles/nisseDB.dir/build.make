@@ -43,10 +43,10 @@ RM = /home/xmie/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xmie/CLionProjects/mydb
+CMAKE_SOURCE_DIR = /home/xmie/CLionProjects/nisseDB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xmie/CLionProjects/mydb/cmake-build-debug
+CMAKE_BINARY_DIR = /home/xmie/CLionProjects/nisseDB/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nisseDB.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/nisseDB.dir/flags.make
 
 CMakeFiles/nisseDB.dir/column.cpp.o: CMakeFiles/nisseDB.dir/flags.make
 CMakeFiles/nisseDB.dir/column.cpp.o: ../column.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nisseDB.dir/column.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/column.cpp.o -c /home/xmie/CLionProjects/mydb/column.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nisseDB.dir/column.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/column.cpp.o -c /home/xmie/CLionProjects/nisseDB/column.cpp
 
 CMakeFiles/nisseDB.dir/column.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nisseDB.dir/column.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/mydb/column.cpp > CMakeFiles/nisseDB.dir/column.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/nisseDB/column.cpp > CMakeFiles/nisseDB.dir/column.cpp.i
 
 CMakeFiles/nisseDB.dir/column.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nisseDB.dir/column.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/mydb/column.cpp -o CMakeFiles/nisseDB.dir/column.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/nisseDB/column.cpp -o CMakeFiles/nisseDB.dir/column.cpp.s
 
 CMakeFiles/nisseDB.dir/main.cpp.o: CMakeFiles/nisseDB.dir/flags.make
 CMakeFiles/nisseDB.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nisseDB.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/main.cpp.o -c /home/xmie/CLionProjects/mydb/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nisseDB.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/main.cpp.o -c /home/xmie/CLionProjects/nisseDB/main.cpp
 
 CMakeFiles/nisseDB.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nisseDB.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/mydb/main.cpp > CMakeFiles/nisseDB.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/nisseDB/main.cpp > CMakeFiles/nisseDB.dir/main.cpp.i
 
 CMakeFiles/nisseDB.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nisseDB.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/mydb/main.cpp -o CMakeFiles/nisseDB.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/nisseDB/main.cpp -o CMakeFiles/nisseDB.dir/main.cpp.s
 
 CMakeFiles/nisseDB.dir/query.cpp.o: CMakeFiles/nisseDB.dir/flags.make
 CMakeFiles/nisseDB.dir/query.cpp.o: ../query.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nisseDB.dir/query.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/query.cpp.o -c /home/xmie/CLionProjects/mydb/query.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nisseDB.dir/query.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/query.cpp.o -c /home/xmie/CLionProjects/nisseDB/query.cpp
 
 CMakeFiles/nisseDB.dir/query.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nisseDB.dir/query.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/mydb/query.cpp > CMakeFiles/nisseDB.dir/query.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/nisseDB/query.cpp > CMakeFiles/nisseDB.dir/query.cpp.i
 
 CMakeFiles/nisseDB.dir/query.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nisseDB.dir/query.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/mydb/query.cpp -o CMakeFiles/nisseDB.dir/query.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/nisseDB/query.cpp -o CMakeFiles/nisseDB.dir/query.cpp.s
 
 CMakeFiles/nisseDB.dir/queryUtil.cpp.o: CMakeFiles/nisseDB.dir/flags.make
 CMakeFiles/nisseDB.dir/queryUtil.cpp.o: ../queryUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nisseDB.dir/queryUtil.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/queryUtil.cpp.o -c /home/xmie/CLionProjects/mydb/queryUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nisseDB.dir/queryUtil.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/queryUtil.cpp.o -c /home/xmie/CLionProjects/nisseDB/queryUtil.cpp
 
 CMakeFiles/nisseDB.dir/queryUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nisseDB.dir/queryUtil.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/mydb/queryUtil.cpp > CMakeFiles/nisseDB.dir/queryUtil.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/nisseDB/queryUtil.cpp > CMakeFiles/nisseDB.dir/queryUtil.cpp.i
 
 CMakeFiles/nisseDB.dir/queryUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nisseDB.dir/queryUtil.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/mydb/queryUtil.cpp -o CMakeFiles/nisseDB.dir/queryUtil.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/nisseDB/queryUtil.cpp -o CMakeFiles/nisseDB.dir/queryUtil.cpp.s
 
 CMakeFiles/nisseDB.dir/row.cpp.o: CMakeFiles/nisseDB.dir/flags.make
 CMakeFiles/nisseDB.dir/row.cpp.o: ../row.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nisseDB.dir/row.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/row.cpp.o -c /home/xmie/CLionProjects/mydb/row.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nisseDB.dir/row.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/row.cpp.o -c /home/xmie/CLionProjects/nisseDB/row.cpp
 
 CMakeFiles/nisseDB.dir/row.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nisseDB.dir/row.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/mydb/row.cpp > CMakeFiles/nisseDB.dir/row.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/nisseDB/row.cpp > CMakeFiles/nisseDB.dir/row.cpp.i
 
 CMakeFiles/nisseDB.dir/row.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nisseDB.dir/row.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/mydb/row.cpp -o CMakeFiles/nisseDB.dir/row.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/nisseDB/row.cpp -o CMakeFiles/nisseDB.dir/row.cpp.s
 
 CMakeFiles/nisseDB.dir/table.cpp.o: CMakeFiles/nisseDB.dir/flags.make
 CMakeFiles/nisseDB.dir/table.cpp.o: ../table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nisseDB.dir/table.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/table.cpp.o -c /home/xmie/CLionProjects/mydb/table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nisseDB.dir/table.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nisseDB.dir/table.cpp.o -c /home/xmie/CLionProjects/nisseDB/table.cpp
 
 CMakeFiles/nisseDB.dir/table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nisseDB.dir/table.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/mydb/table.cpp > CMakeFiles/nisseDB.dir/table.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xmie/CLionProjects/nisseDB/table.cpp > CMakeFiles/nisseDB.dir/table.cpp.i
 
 CMakeFiles/nisseDB.dir/table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nisseDB.dir/table.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/mydb/table.cpp -o CMakeFiles/nisseDB.dir/table.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xmie/CLionProjects/nisseDB/table.cpp -o CMakeFiles/nisseDB.dir/table.cpp.s
 
 # Object files for target nisseDB
 nisseDB_OBJECTS = \
@@ -155,7 +155,7 @@ nisseDB: CMakeFiles/nisseDB.dir/row.cpp.o
 nisseDB: CMakeFiles/nisseDB.dir/table.cpp.o
 nisseDB: CMakeFiles/nisseDB.dir/build.make
 nisseDB: CMakeFiles/nisseDB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable nisseDB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable nisseDB"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nisseDB.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/nisseDB.dir/clean:
 .PHONY : CMakeFiles/nisseDB.dir/clean
 
 CMakeFiles/nisseDB.dir/depend:
-	cd /home/xmie/CLionProjects/mydb/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xmie/CLionProjects/mydb /home/xmie/CLionProjects/mydb /home/xmie/CLionProjects/mydb/cmake-build-debug /home/xmie/CLionProjects/mydb/cmake-build-debug /home/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/nisseDB.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xmie/CLionProjects/nisseDB/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xmie/CLionProjects/nisseDB /home/xmie/CLionProjects/nisseDB /home/xmie/CLionProjects/nisseDB/cmake-build-debug /home/xmie/CLionProjects/nisseDB/cmake-build-debug /home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/nisseDB.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nisseDB.dir/depend
 
