@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/xmie/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/xmie/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/xmie/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/xmie/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xmie/CLionProjects/nisseDB
+CMAKE_SOURCE_DIR = /Users/xmie/CLionProjects/mydb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xmie/CLionProjects/nisseDB/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/xmie/CLionProjects/mydb/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/xmie/CLionProjects/nisseDB/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/xmie/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/xmie/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/xmie/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/xmie/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles /home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles /Users/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xmie/CLionProjects/nisseDB/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xmie/CLionProjects/mydb/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ column.s: column.cpp.s
 column.cpp.s:
 	$(MAKE) -f CMakeFiles/nisseDB.dir/build.make CMakeFiles/nisseDB.dir/column.cpp.s
 .PHONY : column.cpp.s
+
+datafile.o: datafile.cpp.o
+
+.PHONY : datafile.o
+
+# target to build an object file
+datafile.cpp.o:
+	$(MAKE) -f CMakeFiles/nisseDB.dir/build.make CMakeFiles/nisseDB.dir/datafile.cpp.o
+.PHONY : datafile.cpp.o
+
+datafile.i: datafile.cpp.i
+
+.PHONY : datafile.i
+
+# target to preprocess a source file
+datafile.cpp.i:
+	$(MAKE) -f CMakeFiles/nisseDB.dir/build.make CMakeFiles/nisseDB.dir/datafile.cpp.i
+.PHONY : datafile.cpp.i
+
+datafile.s: datafile.cpp.s
+
+.PHONY : datafile.s
+
+# target to generate assembly for a file
+datafile.cpp.s:
+	$(MAKE) -f CMakeFiles/nisseDB.dir/build.make CMakeFiles/nisseDB.dir/datafile.cpp.s
+.PHONY : datafile.cpp.s
 
 main.o: main.cpp.o
 
@@ -292,11 +319,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... nisseDB"
 	@echo "... edit_cache"
+	@echo "... nisseDB"
 	@echo "... column.o"
 	@echo "... column.i"
 	@echo "... column.s"
+	@echo "... datafile.o"
+	@echo "... datafile.i"
+	@echo "... datafile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

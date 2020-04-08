@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nisseDB.dir/column.cpp.o"
+  "CMakeFiles/nisseDB.dir/datafile.cpp.o"
   "CMakeFiles/nisseDB.dir/main.cpp.o"
   "CMakeFiles/nisseDB.dir/query.cpp.o"
   "CMakeFiles/nisseDB.dir/queryUtil.cpp.o"

@@ -16,4 +16,4 @@ add_executable(nisseDB
         row.cpp
         row.h
         table.cpp
-        table.h)
+        table.h datafile.cpp datafile.h)

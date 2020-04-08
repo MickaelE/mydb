@@ -1,7 +1,10 @@
 #include "table.h"
 
+
 Table::Table(std::string &newName){
 	name = newName;
+	datafile datafile;
+	datafile.createFile(name);
 }
 std::string Table::getName(){
 	return name;

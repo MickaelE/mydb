@@ -6,7 +6,7 @@
 #include <string>
 #include <list>
 #include <algorithm>
-
+#include "datafile.h"
 #include "column.h"
 #include "row.h"
 

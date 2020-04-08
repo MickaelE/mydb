@@ -8,114 +8,120 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/xmie/CLionProjects/nisseDB/cmake-build-debug"/>
+				<Option working_dir="/Users/xmie/CLionProjects/mydb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/xmie/CLionProjects/nisseDB/cmake-build-debug"/>
+				<Option working_dir="/Users/xmie/CLionProjects/mydb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="nisseDB">
-				<Option output="/home/xmie/CLionProjects/nisseDB/cmake-build-debug/nisseDB" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xmie/CLionProjects/nisseDB/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/xmie/CLionProjects/nisseDB/."/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 nisseDB"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="nisseDB/fast">
-				<Option output="/home/xmie/CLionProjects/nisseDB/cmake-build-debug/nisseDB" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/xmie/CLionProjects/nisseDB/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/xmie/CLionProjects/nisseDB/."/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 nisseDB/fast"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/xmie/CLionProjects/nisseDB/cmake-build-debug"/>
+				<Option working_dir="/Users/xmie/CLionProjects/mydb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/xmie/CLionProjects/nisseDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nisseDB">
+				<Option output="/Users/xmie/CLionProjects/mydb/cmake-build-debug/nisseDB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xmie/CLionProjects/mydb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xmie/CLionProjects/mydb/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 nisseDB"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nisseDB/fast">
+				<Option output="/Users/xmie/CLionProjects/mydb/cmake-build-debug/nisseDB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xmie/CLionProjects/mydb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xmie/CLionProjects/mydb/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 nisseDB/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/xmie/CLionProjects/mydb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/column.cpp">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/column.cpp">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/column.h">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/column.h">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/main.cpp">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/datafile.cpp">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/query.cpp">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/datafile.h">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/query.h">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/main.cpp">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/queryUtil.cpp">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/query.cpp">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/queryUtil.h">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/query.h">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/row.cpp">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/queryUtil.cpp">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/row.h">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/queryUtil.h">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/table.cpp">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/row.cpp">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/table.h">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/row.h">
 			<Option target="nisseDB"/>
 		</Unit>
-		<Unit filename="/home/xmie/CLionProjects/nisseDB/CMakeLists.txt">
+		<Unit filename="/Users/xmie/CLionProjects/mydb/table.cpp">
+			<Option target="nisseDB"/>
+		</Unit>
+		<Unit filename="/Users/xmie/CLionProjects/mydb/table.h">
+			<Option target="nisseDB"/>
+		</Unit>
+		<Unit filename="/Users/xmie/CLionProjects/mydb/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
